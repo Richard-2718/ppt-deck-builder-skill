@@ -1,0 +1,67 @@
+# Generated presentation outputs
+output/
+preview/
+**/output/
+**/preview/
+*.pptx
+*.ppt
+*.pdf
+*.zip
+*.ppsx
+
+# Generated preview images and extracted media
+*.png
+*.jpg
+*.jpeg
+*.jp2
+*.webp
+*.tif
+*.tiff
+*.gif
+
+# Local training/work artifacts for this repository
+deck_work/
+skill_update_work/
+notes/
+AGENTS.md
+ppt_example.pptx
+
+# Python and local caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.codex/
+.agents/
+
+# Environment, secrets, tokens, and credentials
+.env
+.env.*
+*.env
+*.key
+*.pem
+*.p12
+*.pfx
+*token*
+*secret*
+api_key*
+apikey*
+credentials*
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.swp
+*.swo
+~$*
+Thumbs.db
+.DS_Store
+
+# Editor and OS metadata
+.vscode/
+.idea/
+desktop.ini
