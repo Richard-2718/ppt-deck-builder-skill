@@ -1,14 +1,13 @@
-````md
 # ppt-deck-builder-skill
 
 A reusable AI-agent skill for generating polished academic PowerPoint decks, optimized for paper-reading reports, research group meetings, thesis defenses, CFD/COMSOL result presentations, and BIT-style academic layouts.
 
 This repository provides:
 
-- a structured slide-generation workflow in `SKILL.md`
-- a custom academic PPT template workflow
-- example preview images
-- example generated deck output
+* a structured slide-generation workflow in `SKILL.md`
+* a custom academic PPT template workflow
+* example preview images
+* example generated deck output
 
 > Note: This is not an official Beijing Institute of Technology template package.
 
@@ -16,13 +15,13 @@ This repository provides:
 
 # What It Does
 
-- Builds academic PPT outlines, slide scripts, speaker notes, and full deck plans.
-- Supports paper-reading reports, research group meeting slides, thesis defense decks, CFD/COMSOL result presentations, and engineering project presentations.
-- Uses a template-first workflow when a PPT template is provided.
-- Supports BIT-style academic presentation layouts, including green/white styling, cover pages, contents pages, section dividers, figure-heavy result pages, and conclusion pages.
-- Prioritizes original paper figures for scientific evidence slides.
-- Separates formal slide content from speaker notes.
-- Checks Chinese text readability and common encoding failures such as `????`.
+* Builds academic PPT outlines, slide scripts, speaker notes, and full deck plans.
+* Supports paper-reading reports, research group meeting slides, thesis defense decks, CFD/COMSOL result presentations, and engineering project presentations.
+* Uses a template-first workflow when a PPT template is provided.
+* Supports BIT-style academic presentation layouts, including green/white styling, cover pages, contents pages, section dividers, figure-heavy result pages, and conclusion pages.
+* Prioritizes original paper figures for scientific evidence slides.
+* Separates formal slide content from speaker notes.
+* Checks Chinese text readability and common encoding failures such as `????`.
 
 ---
 
@@ -30,11 +29,11 @@ This repository provides:
 
 Example generated deck:
 
-- `examples/paper-reading-v0.4-balanced-polished.pptx`
+* `examples/paper-reading-v0.4-balanced-polished.pptx`
 
 Example input paper:
 
-- `examples/liu2024-underwater-wake-paper.pdf`
+* `examples/liu2024-underwater-wake-paper.pdf`
 
 Preview slides:
 
@@ -74,7 +73,7 @@ ppt-deck-builder-skill/
 │   ├── paper-reading-v0.4-balanced-polished.pptx
 │   └── liu2024-underwater-wake-paper.pdf
 └── .gitignore
-````
+```
 
 ---
 
@@ -177,6 +176,3 @@ Generated `.pptx` and preview images may be included only when you have the righ
 Please check the repository license before reuse.
 
 If no license is provided, all rights are reserved by default.
-
-```
-```
