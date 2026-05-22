@@ -45,6 +45,12 @@ Use ppt-deck-builder to generate a BIT-style academic group meeting deck. Use or
 ```text
 Use ppt-deck-builder to review this deck for title consistency, body text size, excessive whitespace, figure readability, source tracking, and Chinese garbling.
 ```
+## Included Template
+
+A custom academic PPT template created by the repository author is included in:
+
+```text
+templates/
 
 ## Public Repository Hygiene
 
